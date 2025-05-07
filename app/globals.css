@@ -40,3 +40,17 @@ a {
     color-scheme: dark;
   }
 }
+
+/* centrar todo*/
+.comp {
+  display: flex;
+  flex-direction: column;
+}
+
+.components {
+  display: flex;
+}
+
+.component {
+  width: 150px;
+}
