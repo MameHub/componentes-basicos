@@ -8,6 +8,13 @@ export default function Home() {
         <ClickMayusculas/>
       </div>
 
+      <br/>
+      <hr/>
+
+      <div className="component">
+        <ClickMayusculas/>
+      </div>
+
     </div>
   );
 }
