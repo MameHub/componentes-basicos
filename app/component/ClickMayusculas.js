@@ -1,6 +1,11 @@
 "use client"
 import { useState } from 'react';
 
+/**
+ * Componente que permite al usuario convertir texto a mayúsculas.
+ * @returns {JSX.Element} Un div con un campo de entrada de texto y
+ * un botón que convierte el texto a mayúsculas al hacer clic en el.
+ */
 export default function ClickMayusculas() {
     const [text, setText] = useState("");
     /**
