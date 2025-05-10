@@ -1,29 +1,42 @@
-import AMayusculas from "./component/AMayusculas";
-import ClickMayusculas from "./component/ClickMayusculas";
-import ClickMayusculasMinusculas from "./component/ClickMayusculasMinusculas";
+import AMayusculas from "./component/AMayusculas.js";
+import AcortaIndividual from "./component/AcortaIndividual.js";
+import AcortaIndividualGlobal from "./component/AcortaIndividualGlobal.js";
+import CambioColor from "./component/CambioColor.js";
+import ClickMayusculas from "./component/ClickMayusculas.js";
+import ClickMayusculasMinusculas from "./component/ClickMayusculasMinusculas.js";
 
 export default function Home() {
   return (
     <div className="components">
 
       <div className="component">
+        <p>Componente 1: ClickMayusculas</p>
         <ClickMayusculas/>
       </div>
 
-<<<<<<< HEAD
       <div className="component">
+        <p>Componente 2: ClickMayusculasMinusculas</p>
         <ClickMayusculasMinusculas/>
       </div>
 
       <div className="component">
+        <p>Componente 3: AMayusculas</p>
         <AMayusculas/>
-=======
-      <br/>
-      <hr/>
+      </div>
 
       <div className="component">
-        <ClickMayusculas/>
->>>>>>> c8522237c23f6b3fd743524c85e2adc2b44a0a91
+        <p>Componente 4: CambioColor</p>
+        <CambioColor/>
+      </div>
+
+      <div className="component">
+        <p>Componente 5: AcortaIndividual</p>
+        <AcortaIndividual/>
+      </div>
+      
+      <div className="component">
+        <p>Componente 6: AcortaIndividualGlobal</p>
+        <AcortaIndividualGlobal/>
       </div>
 
     </div>
